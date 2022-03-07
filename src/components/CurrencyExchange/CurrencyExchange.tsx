@@ -68,12 +68,12 @@ const CurrencyExchange: React.FC<CurrencyExchangePropsType> = ({
                 </ul>
             </div>
             <div className="currency-action">
-                <span className={isBuying ? 'active' : ''} data-action="buy" onClick={changeAction}>
-                    Buy
-                </span>
+        <span className={isBuying ? 'active' : ''} data-action="buy" onClick={changeAction}>
+          Buy
+        </span>
                 <span className={isBuying ? '' : 'active'} data-action="sell" onClick={changeAction}>
-                    Sell
-                </span>
+          Sell
+        </span>
             </div>
             <div className="fields">
                 <p>Currency rate: {currencyRate}</p>
